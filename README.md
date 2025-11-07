@@ -1,4 +1,4 @@
-# just-the-docs-template
+# just-the-docs-template 에서 수정한다.
 
 This is a *bare-minimum* template to create a [Jekyll] site that:
 
