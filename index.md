@@ -1,35 +1,50 @@
 ---
-title: Home
-layout: home
+layout: default
+title: 영농형 태양광 × 스마트에너지그리드
+description: 농업과 에너지의 공존을 위한 영농형 태양광(agrivoltaics)과 스마트/마이크로그리드 정보를 모으는 오픈 지식 페이지
+lang: ko
+permalink: /
+tags: [agrivoltaics, smart grid, microgrid, smart farm, rural energy, ESS, VPP]
+nav_order: 1
 ---
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
+# 🌿 영농형 태양광 × 스마트에너지그리드  
+_Agrivoltaics & Smart/Microgrid for Sustainable Rural Future_
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+> 농업이 전기를 만들고, 전기가 농업을 지탱하는 **자립형 농촌 에너지 생태계**를 함께 만듭니다.
 
-More specifically, the created site:
+---
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
+## 목차
+{: .no_toc }
 
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
+- TOC
+{:toc}
 
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
+---
 
-To get started with creating a site, simply:
+## 1) 소개: 왜 영농형 태양광 + 스마트그리드인가
+영농형 태양광(agrivoltaics)은 **농업 생산과 전력 생산을 동시에** 수행하는 모델입니다.  
+여기에 스마트그리드/마이크로그리드가 결합되면, 농가·마을 단위에서 **저장(ESS)–분배–제어(EMS)** 를 통해 전력을 효율적으로 순환시키는 **자율적 에너지 네트워크**가 됩니다.
 
-1. click "[use this template]" to create a GitHub repository
-2. go to Settings > Pages > Build and deployment > Source, and select GitHub Actions
+- 농가 수익 다각화 + 전력자립률 향상
+- 기후위기 대응(재생에너지 확대) + 농작물 생육환경 최적화
+- 지역 분산형 전력체계(Resilience) 강화
 
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md#hosting-your-docs-from-an-existing-project-repo) in the template README.
+---
 
-----
+## 2) 이 페이지에서 다루는 내용
+- **정책·제도 동향**: 국내외 정책, 보급 전략, 인허가·안전 가이드라인 요약
+- **기술 구성요소**: PV, 인버터, ESS, EMS, AMI/IoT, 데이터·AI, VPP 연계
+- **모델·아키텍처**: 농가 단위, 마을 단위(마이크로그리드), 지역 순환형 모델
+- **실증·사례**: 국내외 실증사업, 경제성·안전성·품질관리 포인트
+- **표준·R&D**: 적용 표준/규격 맵, 연구과제 정리, 논문·리포트 큐레이션
+- **데이터랩**: 운영 데이터 구조 예시, 시뮬레이션/시각화 노트북 안내
 
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
+> **참여 방법** — 자료 제안·질문은 Issues, 토론은 Discussions에서 환영합니다.  
+> 저장소: {% if site.github.repository_url %}[{{ site.github.repository_url }}]({{ site.github.repository_url }}){% else %}[Repository Link](#){% endif %}
 
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[Jekyll]: https://jekyllrb.com
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
+---
+
+## 3) 핵심 아키텍처 한눈에 보기
+
